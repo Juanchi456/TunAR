@@ -20,8 +20,7 @@
 
 ## 📱 Capturas de Pantalla
 
-*(Nota: Reemplaza estos enlaces con capturas reales de tu aplicación cuando la UI esté finalizada)*
-
+En desarrollo...
 | Modo Básico | Modo Pro (Edición) | Lista de Presets |
 | :---: | :---: | :---: |
 | <img src="https://via.placeholder.com/250x500.png?text=Pantalla+Basico" width="200"/> | <img src="https://via.placeholder.com/250x500.png?text=Pantalla+Pro" width="200"/> | <img src="https://via.placeholder.com/250x500.png?text=Pantalla+Presets" width="200"/> |
