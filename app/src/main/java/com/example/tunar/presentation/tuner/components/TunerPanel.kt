@@ -184,7 +184,7 @@ private fun StatusLine(status: TuningStatus, text: String, color: Color) {
 
 @Composable
 private fun IdleReading(icon: ImageVector, text: String) {
-    Text("—", style = NoteTextStyle, color = MaterialTheme.colorScheme.outline)
+    Text("–", style = NoteTextStyle, color = MaterialTheme.colorScheme.outlineVariant)
     Spacer(Modifier.height(20.dp))
     TuningMeter(cents = null, needleColor = MaterialTheme.colorScheme.outline, description = text)
     Spacer(Modifier.height(20.dp))

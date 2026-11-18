@@ -158,7 +158,7 @@ fun TunerScreen(state: TunerUiState, actions: TunerActions) {
                 onOpenSettings = actions.onOpenSettings,
                 onRetry = actions.onRetry,
                 modifier = Modifier
-                    .heightIn(min = 400.dp)
+                    .heightIn(min = if (state.isEditing) 300.dp else 400.dp)
                     .padding(vertical = 8.dp),
             )
 
