@@ -1,4 +1,4 @@
-package com.example.tunar.ui.theme
+package com.example.tunar.presentation.theme
 
 import android.app.Activity
 import android.os.Build
