@@ -1,3 +1,69 @@
 <resources>
     <string name="app_name">TunAR</string>
+
+    <!-- Navegación -->
+    <string name="nav_basic">Básico</string>
+    <string name="nav_pro">Pro</string>
+    <string name="title_basic">Afinador</string>
+    <string name="title_pro">Afinador Pro</string>
+    <string name="basic_subtitle">Guitarra · Estándar · La4 = 440 Hz</string>
+    <string name="open_calibration">Abrir calibración</string>
+
+    <!-- Permiso -->
+    <string name="permission_title">TunAR necesita el micrófono</string>
+    <string name="permission_body">Escuchamos tu instrumento para medir la afinación. El sonido se analiza en el momento: nunca se graba ni se envía.</string>
+    <string name="permission_action">Permitir micrófono</string>
+    <string name="permission_blocked_title">Micrófono bloqueado</string>
+    <string name="permission_blocked_body">Rechazaste el permiso de micrófono. Para afinar, habilitalo en Ajustes › Permisos › Micrófono.</string>
+    <string name="permission_open_settings">Abrir ajustes</string>
+
+    <!-- Estados del afinador -->
+    <string name="starting_mic">Abriendo el micrófono…</string>
+    <string name="listening">Tocá una cuerda</string>
+    <string name="weak_signal">Señal débil o con ruido. Acercá el instrumento y tocá una sola cuerda.</string>
+    <string name="out_of_range">Fuera de rango (%1$s Hz). TunAR afina de B0 a E5.</string>
+    <string name="mic_error_title">No se pudo usar el micrófono</string>
+    <string name="retry">Reintentar</string>
+    <string name="status_in_tune">Afinado</string>
+    <string name="status_flat">Grave: tensá la cuerda</string>
+    <string name="status_sharp">Agudo: aflojá la cuerda</string>
+    <string name="target_line">Cuerda %1$d · objetivo %2$s (%3$s Hz)</string>
+    <string name="cents_value">%1$s ¢</string>
+    <string name="detected_hz">%1$s Hz</string>
+    <string name="meter_description">Desvío %1$s céntimos. %2$s</string>
+
+    <!-- Cuerdas -->
+    <string name="string_description">Cuerda %1$d, %2$s. Tocar para fijarla</string>
+    <string name="string_locked_description">Cuerda %1$d, %2$s, fijada. Tocar para liberarla</string>
+    <string name="string_edit_description">Cuerda %1$d, %2$s. Tocar para cambiar la nota</string>
+    <string name="hint_auto">Detecta la cuerda automáticamente. Tocá una para fijarla.</string>
+    <string name="hint_locked">Cuerda fijada. Tocala de nuevo para volver al modo automático.</string>
+    <string name="hint_editing">Tocá una cuerda para cambiar su nota.</string>
+
+    <!-- Modo Pro -->
+    <string name="preset_label">Afinación: %1$s</string>
+    <string name="preset_custom">Personalizado</string>
+    <string name="preset_choose">Elegir afinación</string>
+    <string name="edit_start">Editar cuerdas</string>
+    <string name="edit_done">Listo</string>
+    <string name="reference_title">Referencia (La4)</string>
+    <string name="reference_value">%1$s Hz</string>
+    <string name="reference_decrease">Bajar referencia 1 Hz</string>
+    <string name="reference_increase">Subir referencia 1 Hz</string>
+    <string name="strings_title">Cuerdas</string>
+    <string name="strings_count">%1$d cuerdas</string>
+    <string name="strings_add">Agregar cuerda grave</string>
+    <string name="strings_remove">Quitar cuerda grave</string>
+    <string name="strings_hint">De 4 a 8</string>
+    <string name="picker_title">Nota de la cuerda %1$d</string>
+    <string name="picker_note">Nota</string>
+    <string name="picker_octave">Octava</string>
+    <string name="picker_confirm">Usar %1$s</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Mensajes -->
+    <string name="msg_max_strings">El máximo es 8 cuerdas.</string>
+    <string name="msg_min_strings">El mínimo es 4 cuerdas.</string>
+    <string name="msg_invalid_reference">La referencia debe estar entre 400 y 480 Hz.</string>
+    <string name="msg_invalid_note">Esa nota está fuera del rango soportado (B0 a E5).</string>
 </resources>
